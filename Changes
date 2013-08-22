@@ -1,6 +1,18 @@
 Revision history for Perinci-Access-Base
 
+0.29     2013-08-22 (SHARYANTO)
+
+         [INCOMPATIBLE CHANGES]
+
+         - Remove _init() to make new() dead-simple. Subclasses should override
+           and do additional stuffs as needed.
+
+         [ETC]
+
+         - Add some more docs.
+
+
 0.28     2012-08-10 (SHARYANTO)
 
-         First release, split to make Perinci dist empty (that dist was a
-         growing mixed bag and caused headache in dependencies).
+         - First release, split to make Perinci dist empty (that dist was a
+           growing mixed bag and caused headache in dependencies).
