@@ -67,6 +67,9 @@ currently only provides check_request() which does the following:
 Split result is put in C<< $req->{-uri_scheme} >>, C<< $req->{-uri_auth} >>, C<<
 $req->{-uri_path} >>, C<< $req->{-uri_query} >>, and C<< $req->{-uri_frag} >>.
 
+=back
+
+
 =head1 METHODS
 
 =head2 new(%args) => OBJ
