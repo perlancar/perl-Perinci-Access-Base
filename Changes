@@ -2,7 +2,8 @@ Revision history for Perinci-Access-Base
 
 0.30     2013-09-08 (SHARYANTO)
 
-         - Use URI::Split to pre-split uri for subclasses.
+         - Use URI::Split to pre-split uri for subclasses, provide
+           -uri_{scheme,auth,path,query,frag}.
 
 
 0.29     2013-08-22 (SHARYANTO)
