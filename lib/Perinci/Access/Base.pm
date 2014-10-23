@@ -34,7 +34,8 @@ sub check_request {
     #}
 
     $req->{v} //= 1.1;
-    return [500, "Protocol version not supported"] if $req->{v} ne '1.1';
+    return [500, "Protocol version not supported"]
+        if $req->{v} ne '1.1' && $req->{v} ne '1.2';
 
     my $action = $req->{action};
     return [400, "Please specify action"] unless $action;
