@@ -10,6 +10,7 @@ use URI::Split qw(uri_split);
 
 sub new {
     my ($class, %opts) = @_;
+    $opts{riap_version} //= 1.1;
     bless \%opts, $class;
 }
 
@@ -70,6 +71,10 @@ $req->{-uri_path} >>, C<< $req->{-uri_query} >>, and C<< $req->{-uri_frag} >>.
 
 =back
 
+
+=head1 ATTRIBUTES
+
+=head2 riap_version => float (default: 1.1)
 
 =head1 METHODS
 
