@@ -1,4 +1,4 @@
-0.33    2015-09-06 (PERLANCAR)
+0.33    2015-09-06  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -7,23 +7,23 @@
 	  requirement.
 
 
-0.32    2014-10-24 (PERLANCAR)
+0.32    2014-10-24  Released-By: PERLANCAR
 
 	- Add attribute: riap_version.
 
 
-0.31    2014-10-23 (PERLANCAR)
+0.31    2014-10-23  Released-By: PERLANCAR
 
 	- Add support for Riap 1.2.
 
 
-0.30     2013-09-08 (SHARYANTO)
+0.30     2013-09-08  Released-By: SHARYANTO
 
          - Use URI::Split to pre-split uri for subclasses, provide
            -uri_{scheme,auth,path,query,frag}.
 
 
-0.29     2013-08-22 (SHARYANTO)
+0.29     2013-08-22  Released-By: SHARYANTO
 
          [INCOMPATIBLE CHANGES]
 
@@ -35,7 +35,7 @@
          - Add some more docs.
 
 
-0.28     2012-08-10 (SHARYANTO)
+0.28     2012-08-10  Released-By: SHARYANTO
 
          - First release, split to make Perinci dist empty (that dist was a
            growing mixed bag and caused headache in dependencies).
